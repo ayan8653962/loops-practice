@@ -42,11 +42,13 @@ var arry=[1,2,3,4,5,6,7,8,9]
 for(var i=0; i<arry.length; i++){
   document.writeln(arry[i])
 }
+document.writeln("<br>")
 // question 2
 var arry=[1,2,3,4,5,6,7,8,9]
 for(var i=arry.length -1; i>=0; i--){
   document.writeln(arry[i])
 }
+document.writeln("<br>")
 // question 3
 var arry=[1,2,3,4,5,6,7,8,9]
 var sum= 0;
@@ -54,6 +56,8 @@ for(var i=0; i<arry.length; i++){
   sum = sum + arry[i]
 }
 document.writeln("Total Sum = " + sum)
+
+document.writeln("<br>")
 // question 4
 var arry=[1,2,3,4,5,6,7,8,9]
 var sum=0;
@@ -61,6 +65,8 @@ for(i=0; i<arry.length; i++){
   sum = sum + arry[i]
 }
 document.writeln("Average " + sum / arry.length)
+
+document.writeln("<br>")
 // question 5
 var arry=[1,2,3,4,5,6,7,8,9]
 var count=0;
@@ -68,20 +74,39 @@ for(var i=0; arry[i] !==undefined; i++){
   count++ 
 }
 document.writeln("Count " + count +"<br>")
+
+document.writeln("<br>")
 // question 6 
 for(var i=2; i<=30; i+=2){
-    document.writeln( i , "<br>")
+    document.writeln(i)
 }
+document.writeln("<br>")
 // question 7 
 for(var i=2; i<=30; i++){
    if(i % 2 !==0) {
    document.writeln(i)
    }
 }
-
-
-
-
+document.writeln("<br>")
+// question 8
+var arry=[1,2,3,4,5,6,7,8,9]
+for(var i=0; i<arry.length; i++){
+  document.writeln(arry[i] * 2)
+}
+document.writeln("<br>")
+// question 9
+var arry=[1,2,3,4,5,6,7,8,9]
+for(var i=0; i<arry.length; i++){
+  document.writeln(arry[i] * arry[i])
+}
+document.writeln("<br>")
+// question 10
+var arry=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+for(var i=0; i<arry.length; i++){
+  if(arry[i] > 5 ){
+    document.writeln(arry[i])
+  }
+}
 
 
 
