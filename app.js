@@ -107,22 +107,59 @@ for(var i=0; i<arry.length; i++){
     document.writeln(arry[i])
   }
 }
+document.writeln("<br>")
+// question 11
+var arry=[5,23,45,64,63,73,94]
+var big= arry[0];
+for(var i=1; i<arry.length; i++){
+  if(arry[i]>big){
+   big = arry[i];
+  }
+} 
+document.writeln("Bigest Number " + big)
+document.writeln("<br>")
+// question 12
+var arry=[23,45,76,89,42,6,87,53]
+var small= arry[0];
+for(var i=0; i<arry.length; i++){
+  if(arry[i]<small){
+    small = arry[i]
+  }
+}
+document.writeln(" Smollest Number " + small)
+document.writeln("<br>")
+// question 13
+var arry=[23,45,76,89,42,6,87,53]
+var big= arry[0];
+var small= arry[0];
+for(var i=0; i<=arry.length; i++){
 
+  if(arry[i]>big){
+    big = arry[i];
+  }
+  if (arry[i]<small){
+    small = arry[i]
+  }
+}
+document.writeln("Bigest " + big ,  " Smollest " +  small)
+document.writeln("<br>")
+// question 14
+var arry=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+var even= 0;
+var odd= 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for(var i=0; i<arry.length; i++){
+  if(arry[i] % 2 ===0){
+   even++
+  }
+}
+for(var i=0; i<arry.length; i++){
+if(arry[i] % 2 !==0){
+  odd++
+}
+}
+document.writeln( "Even count " + even + "<br>")
+document.writeln("Odd count " + odd + "<br>")
 
 
 
