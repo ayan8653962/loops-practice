@@ -160,13 +160,46 @@ if(arry[i] % 2 !==0){
 }
 document.writeln( "Even count " + even + "<br>")
 document.writeln("Odd count " + odd + "<br>")
-
-
-
-
-
-
-
+document.writeln("<br>")
+// question 15
+var arry=[1,2,3,4,5,5,6,7,8,9,5,10,11,12,13,14,5,15,16,17,18,19,20]
+var given= 5;
+var count= 0;
+for(var i=0; i<arry.length; i++){
+   if(arry[i] === given){
+    count++
+   }
+  }
+  document.writeln(count)
+document.writeln("<br>")
+// question 16
+var arry=[1,3,5,5,7,9,5,10,11,12,13,14,5,15,16,17,18,19,20]
+var even= 0;
+for(var i=0; i<arry.length; i++){
+  if(arry[i] % 2 ===0){
+   document.writeln("First even number " + arry[i])
+   break
+  }
+}
+document.writeln("<br>")
+// question 17
+var arry=[1,3,5,5,7,9,5,10,11,12,13,14,5,15,16,17,18,19,21]
+for(var i=arry.length -1; i>=0; i--){
+  if(arry[i] % 2 !== 0){
+    document.writeln("Last odd number " + arry[i])
+    break;
+  }
+}
+document.writeln("<br>")
+// question 18
+var arry=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+var number= 5;
+for(var i=0; i<arry.length; i++){
+  if(arry[i] == number){
+   document.writeln("Number Found")
+   break;
+  }
+}
 
 
 
