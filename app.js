@@ -204,7 +204,6 @@ document.writeln("<br>")
 // question 19
 var arry=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 var given= 5;
-fo
 
 
 
