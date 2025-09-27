@@ -204,6 +204,26 @@ document.writeln("<br>")
 // question 19
 var arry=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 var given= 5;
+for(var i=0; i<arry.length; i++){
+   if(arry[i] == given){
+    document.write(i)
+   }
+}
+document.writeln("<br>")
+// question 20
+var arr =[1,64,8,59,53,3,7,37,53,24,5,9,3,11]
+var count= 10;
+for(var i=0; i<arr.length; i++){
+  if(arr[i] < count){
+    document.write("This number are smollest 10 = ",arr[i], "<br>")
+  }
+}
+
+
+
+
+
+
 
 
 
