@@ -218,41 +218,90 @@ for(var i=0; i<arr.length; i++){
     document.write("This number are smollest 10 = ",arr[i], "<br>")
   }
 }
+document.writeln("<br>")
+// question 21
+var arr=[3,8,45,85,36,20,4,63,26,92,38] 
+var arr2=[];
+for(var i=0; i<=arr.length; i++){
+  if(arr[i] % 2 ===0){
+   arr2.push(arr[i])
+}
+}
+document.write("Even number in new arry " , arr2)
 
+document.writeln("<br>")
+// question 22
+var arr=[1,3,5,6,8,44,43,75,83,18,23,52,81]
+var arr2=[];
+for(var i=0; i<arr.length; i++){
+   if(arr[i] % 2 !==0)[
+    arr2.push(arr[i])
+   ]
+}
+document.write("Odd number in new arry  ", arr2)
 
+document.writeln("<br>")
+// question 23
+var arr=[1,3,5,6,8,44,43,75,83,18,23,52,81]
+var arr2=[];
+for(var i=0; i<arr.length; i++){
+   arr2.push(arr[i] + 1)
+}
+document.write("Addition of 1 in new arry " , arr2)
 
+document.writeln("<br>")
+// question 24
+var arr=[2,3,5]
+var arr2=[];
+for(var i=0; i<arr.length; i++){
+ arr2.push(arr[i] * 5)
+}
+document.write("create a new arry multipy by 5 " , arr2)
 
+document.writeln("<br>")
+// question 25
+var arr=[1,8,3,4,5,6,7,8,9,10]
+for(var i=0; i<arr.length; i++){
+  if(arr[i] % 2 ===0){
+    document.write("First Even number in Arry " , arr[i])
+  break
+  }
+}
 
+document.writeln("<br>")
+// question 26
+var arr=[1,2,3,4,5]
+var arr2=[];
+for(var i=0; i<arr.length; i++){
+  arr2.push(arr[i])
+}
+document.write("Old arry push in new arry " , arr2)
 
+document.write("<br>")
+// question 27
+var arr=[1,2,3,4]
+var arr2=[5,6,7,8]
+var arr3=[];
+for(var i=0; i<arr.length; i++){
+  arr3[i] = arr[i]
+}
+for(var j=0; j<arr2.length; j++){
+  arr3[arr.length + j] =
+  arr2[j] 
+}
+document.write(arr3)
 
+document.write("<br>")
+// question 28
+var arr=[1,2,3,4,5,6,7,8,9]
+var total = 0;
+for(var i=0; i<arr.length; i++){
+  if(arr[i] % 2 ===0 ){
+   total += arr[i]
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+document.write(total)
 
 
 
