@@ -1,3 +1,17 @@
+var userinp= prompt("Wher are you from" + " " + "( First letter in capital )")
+var arr=["Hyderabad " , "Karachi" , "Lahore" , "Islamabad " , "Kotri" , "Matyari "]
+var wronginp= false;
+for(var i=0; i < arr.length; i++){
+  if(userinp == arr[i]){
+   wronginp = true 
+   document.write("City found ")
+   break
+  }  
+  }  
+  if(wronginp == false){
+    document.write("City Not Found")
+  }
+
 for (var i=1; i<=10;  i++){
     document.writeln("Number: " , i , "<br>");
 }
@@ -302,6 +316,256 @@ for(var i=0; i<arr.length; i++){
 
 }
 document.write(total)
+
+document.write("<br>")
+// question 29
+var arr=[1,2,3,4,5,6,7,8,9]
+var total = 0;
+for(var i=0; i<arr.length; i++){
+ if(arr[i] % 2 !==0){
+  total += arr[i]
+ }
+}
+document.write(total)
+
+document.write("<br>")
+// question 30
+var arr=[-3,6,-4,-9,5,4,-1,8]
+for(var i=0; i<arr.length; i++){
+  if(arr[i] < 0) {
+    arr[i] = 0
+  }
+}
+document.write("New " + arr)
+
+document.write("<br>")
+// question 31
+var arr=[-3,6,-4,7,-9,5, -15,4,-2,8, -20,30]
+var positive = [];
+var negative = [];
+for(var i=0; i<arr.length; i++){
+  if(arr[i] > 0){
+   positive.push(arr[i])
+  }
+  if(arr[i] < 0){
+   negative.push(arr[i])
+  }
+}
+document.write(" <br> Positive " + positive)
+document.write(" <br> Negative " + negative)
+document.write("<br> Total Positive " + positive.length + "<br>")
+document.write("Total Negative " + negative.length + "<br>")
+
+
+document.write("<br>")
+// question 32
+var arr=[1,2,3,4,5,6,7,8,9,12,15]
+var divide= [];
+for(var i=0; i<arr.length; i++){
+  if(arr[i] % 3 ===0){
+    divide.push(arr[i])
+  }
+}
+document.write("Total number divided by 3 = " + divide)
+document.write("<br> Total divided by 3 number of quantity = " + divide.length)
+
+document.write("<br>")
+// question 33
+var arr=[1,2,3,4,5,6,7,8,9,12,15]
+var bignum = arr[0];
+for(var i=1; i<arr.length; i++){
+  if(arr[i] > bignum){
+    bignum = arr[i]
+  } 
+}
+var sbnum = -Infinity;
+for(var i=0; i<arr.length; i++){
+    if(arr[i] !== bignum && arr[i] > sbnum){
+        sbnum = arr[i]
+   }
+  }
+document.write("Second bigest number is " , sbnum)
+    
+document.write("<br> ")
+// question 34
+var arr=[1,2,3,4,5,6,7,8,9,12,15]
+var fsnum = arr[0];
+for(var i=1; i<arr.length; i++){
+  if(arr[i] < fsnum){
+    fsnum = arr[i]
+  } 
+}
+var ssnum = Infinity;
+for(var i=0; i<arr.length; i++){
+    if(arr[i] !== bignum && arr[i] < ssnum){
+        ssnum = arr[i]
+   }
+  }
+document.write("Second Somllest number is " , ssnum)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
