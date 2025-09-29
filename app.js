@@ -397,19 +397,33 @@ for(var i=1; i<arr.length; i++){
 }
 var ssnum = Infinity;
 for(var i=0; i<arr.length; i++){
-    if(arr[i] !== bignum && arr[i] < ssnum){
+    if(arr[i] !== fsnum && arr[i] < ssnum){
         ssnum = arr[i]
    }
   }
 document.write("Second Somllest number is " , ssnum)
 
+document.write("<br>")
+// question 35
+var arr=[1,2,3,4,5,6,7,8,9,12,15]
+var bignum = arr[0];
+for(var i=1; i<arr.length; i++){
+  if(arr[i] > bignum){
+    bignum = arr[i]
+  } 
+}
+document.write("First bigest number " , bignum , "<br>")
 
-
-
-
-
-
-
+var arr=[1,2,3,4,5,6,7,8,9,12,15]
+var fsnum = arr[0];
+for(var i=1; i<arr.length; i++){
+  if(arr[i] < fsnum){
+    fsnum = arr[i]
+  } 
+}
+document.write("First smollest number " , fsnum , "<br>")
+var different = bignum - fsnum 
+document.write("Difference between bigest and smollest number is " , different)
 
 
 
